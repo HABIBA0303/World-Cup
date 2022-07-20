@@ -149,3 +149,24 @@ ul li a {
     font-size: 20px;
     padding-right: 15px;
 }
+
+.match-item {
+    display: flex;
+
+}
+
+.match {
+    border: 1px solid rgb(176, 170, 170);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.active {
+    background-color: blueviolet;
+}
