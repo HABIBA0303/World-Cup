@@ -1,0 +1,151 @@
+* {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+
+    width: 1040px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.head-one {
+    display: flex;
+    background-color: black;
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 80%;
+    height: 55%;
+    margin: 0 auto;
+    border-radius: 30px;
+
+}
+
+.watch-here {
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 5px 10px;
+    background-color: rgb(216, 161, 161);
+    color: white;
+    border-radius: 10px;
+}
+
+.watch-here:hover {
+    border: 1px solid red;
+    color: rgb(232, 172, 172);
+    background-color: white;
+    transition: all 2s;
+}
+
+.fifa-head {
+    padding-left: 30px;
+    color: aliceblue;
+}
+
+.player-pic {
+    width: 40%;
+}
+
+.first {
+    margin-top: 80px;
+    display: flex;
+
+}
+
+.first-section {
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    background: rgb(7, 6, 7);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.first-section a {
+    display: block;
+    background: white;
+    margin: 20px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px 20px
+}
+
+.fifa-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.blog {
+    width: 250px;
+    border: 2px solid rgb(247, 236, 236);
+    border-radius: 10px;
+
+}
+
+.image-blog {
+    width: 100%;
+}
+
+.trans {
+    font-size: 15px;
+    background-color: transparent;
+    margin-top: 20px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.blog-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 20px;
+}
+
+
+.fa-solid {
+    font-size: 9px;
+}
+
+footer {
+    padding: 50px 0px;
+    text-align: center;
+    background-color: rgb(16, 15, 14);
+    color: white;
+}
+
+footer h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-class {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+ul li {
+    margin-left: 85px;
+}
+
+ul li a {
+    color: beige;
+}
+
+.Social-Icon i {
+    font-size: 20px;
+    padding-right: 15px;
+}
