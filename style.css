@@ -30,6 +30,11 @@ h1 {
 
 }
 
+.upcoming-match:hover {
+    background-color: white;
+    color: purple;
+}
+
 .watch-here {
     text-decoration: none;
     border: 1px solid red;
