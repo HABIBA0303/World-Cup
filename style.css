@@ -175,3 +175,94 @@ ul li a {
 .active {
     background-color: blueviolet;
 }
+
+/* media-quary */
+@media screen and (min-width:676px) and (max-width:1000px) {
+    .player-pic img {
+        width: 100%;
+
+    }
+
+    .fifa-head h1 {
+        font-size: 25px;
+
+    }
+
+    .fifa-container {
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .first-section {
+        margin-bottom: 50px;
+    }
+
+    .blog-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-class li {
+        margin-left: 20px;
+
+    }
+
+    .matches {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media screen and (max-width:675px) {
+    .head-one {
+        flex-direction: column;
+
+    }
+
+    .player-pic img {
+        width: 100%;
+        margin-left: 100px;
+
+    }
+
+    .fifa-head h1 {
+        font-size: 20px;
+
+    }
+
+    .fifa-container {
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .first-section {
+        margin-bottom: 40px;
+    }
+
+    .blog-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-class li {
+        margin-left: 20px;
+
+    }
+
+    .footer-class {
+        flex-direction: column;
+    }
+
+    .footer-class li {
+        margin-right: 100px;
+        margin-bottom: 20px;
+    }
+
+    .matches {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
